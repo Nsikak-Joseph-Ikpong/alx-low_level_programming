@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
  * main -A program to write a line without printf and puts command
  * Return: 0 (Successful)
