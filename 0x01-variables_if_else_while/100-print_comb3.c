@@ -1,13 +1,12 @@
 #include <stdio.h>
 /**
- * main -main function
+ * main - a program
  * Return: 0
  */
 int main(void)
 {
 	int ones = '0';
 	int tens = '0';
-
 
 	for (tens = '0'; tens <= '9'; tens++)
 	{
@@ -20,7 +19,7 @@ int main(void)
 				if (!(ones == '9' && tens == '8'))
 				{
 					putchar(',');
-					putchar(' ');
+					putchar(',');
 				}
 			}
 		}
