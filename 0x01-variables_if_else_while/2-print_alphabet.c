@@ -1,9 +1,8 @@
 #include <stdio.h>
-
 /**
- * main -A program to write alphabets in lowercase
+ * main -A program to write alphabets in lowercase, follwed by a new line
  *
- * Result: 0
+ * Return: 0
  */
 int main(void)
 {
