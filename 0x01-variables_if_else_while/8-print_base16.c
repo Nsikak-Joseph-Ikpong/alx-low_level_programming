@@ -6,12 +6,15 @@
  */
 int main(void)
 {
-        int i;
-	int a = 10;
+	int d;
+	char low;
 
-        for (i = 0 ; i < 16 ; i++)
-                 putchar((i < 10) ? (i + '0') : ('a' + i - 10));
-    putchar('\n');
+	for (d = '0'; d <= '9'; d++)
+	putchar(d);
 
-    return 0;
+	for (low = 'a'; low <= 'f'; low++)
+	putchar(low);
+	putchar('\n');
+
+	return 0;
 }
