@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _abs: function to get absolute value
+ * _abs -function to get absolute value
  * @a: function parameter
  * Return: -a or a
  */
