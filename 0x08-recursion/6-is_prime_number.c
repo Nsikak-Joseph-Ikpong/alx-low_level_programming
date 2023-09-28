@@ -12,7 +12,7 @@ int is_prime_number(int n)
 {
 	if (n <= 1)
 		return (0);
-	return (actual_prinme(n, n - 1));
+	return (actual_prime(n, n - 1));
 }
 /**
  * actual_prime - calculates if a number is a prime recur
@@ -28,6 +28,7 @@ int actual_prime(int n, int i)
 		return (0);
 	return (actual_prime(n, i - 1));
 }
+else
 {
 	if (i == 1)
 		return (1);
