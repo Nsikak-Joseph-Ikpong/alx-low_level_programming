@@ -6,6 +6,7 @@
  */
 char *_strdup(char *str)
 {
+	int i;
 	char *copy;
 	int counnt = 0;
 
