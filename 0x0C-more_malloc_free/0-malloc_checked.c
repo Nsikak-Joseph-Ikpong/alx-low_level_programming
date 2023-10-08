@@ -3,12 +3,12 @@
 #include <stdlib.h>
 
 /**
- * *malloc_checked - A program to allocate memory using malloc
+ * malloc_checked - A program to allocate memory using malloc
  * @b: function parameter
  * Return: pointer to the allocated memoiry
  */
 
-void *malloc_checked(unsigned int b);
+void *malloc_checked(unsigned int b)
 {
 	char *output;
 
