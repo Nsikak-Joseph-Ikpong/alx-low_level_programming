@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stddef.h>
+#include <stdlib.h>
 
 
 /**
@@ -28,14 +30,16 @@ else if (new_size == 0)
 }
 	else if (new_size == old_size)
 		return (ptr);
-	p = malloc(new_size)
+	p = malloc(new_size);
 	if (p == NULL)
 		return (NULL);
 	if (new_size > old_size)
 	n = old_size;
-	for (i = 0; i < n; i++)
-		p[i] = oldp[i];
-		free(ptr);
-		return (p);
+		for (i = 0; i < n; i++)
+{
+			p[i] = oldp[i];
+}
+			free(ptr);
+			return (p);
 }
 
