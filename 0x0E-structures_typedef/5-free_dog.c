@@ -1,4 +1,5 @@
 #include "dog.h"
+#include <stdlib.h>
 /**
  * free_dog - A function that frees the dogs
  * @d: pointer to struct to free the dog
